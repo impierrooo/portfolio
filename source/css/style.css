@@ -1,0 +1,90 @@
+/* ---------- Variable de la page ---------- */
+
+@font-face { 
+    font-family: acier; 
+    src: url("../assets/policies/venus_acier.otf"); 
+}
+
+@font-face { 
+    font-family: cormier;
+    src: url("../assets/policies/venus_cormier.otf"); 
+}
+
+@font-face {  
+    font-family: calibri;
+    src: url("../assets/policies/calibri.ttf"); 
+}
+
+a {
+    text-decoration: none;
+    cursor: url('../assets/images/pointer.png'), default;
+}
+
+/* ---------- Body ---------- */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #212328;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: url('../assets/images/cursor.png'), default;
+}
+
+/* ---------- Scrollbar ---------- */
+
+*::-webkit-scrollbar{
+    width: 10px;
+    cursor:pointer;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 0px solid transparent;
+    background-clip: content-box;
+    background-color: #555;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+    cursor:pointer;
+}
+
+/* ---------- Surlignage curseur ---------- */
+
+*::selection{
+    background-color: #9632f3;
+}
+
+/* ---------- No script ---------- */
+
+#no_script {
+    width: 100%;
+    height: 100%;
+    background-color: #212328;
+    position: absolute;
+    visibility: visible;
+}
+
+#no_script_text {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: cormier;
+    color: #f2f2f2;
+    font-size: 100px;
+    font-weight: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+}

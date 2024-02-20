@@ -1,0 +1,177 @@
+/* ---------- Sidebar top ---------- */
+
+#sidebar_top {
+    display: flex;
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    height: 80px;
+    padding: 0px;
+}
+
+.sidebar_top_box{
+    height: 80px;
+    position: relative;
+    z-index: 5;
+}
+
+#sidebar_top_box1 {
+    height: 28px;
+    margin: 26px calc(100% - 589px) 0 0;   
+}
+
+#sidebar_top_box2 {
+    height: 36px;
+    margin: 22px 0 0 0; 
+}
+
+#sidebar_top_box3 {
+    width: 80px;
+    background-color: green;
+}
+
+#sidebar_top_box_link {
+    color: #f2f2f2;
+    font-family: cormier;
+    font-size: 30px;
+    margin: 26px 0 0 0;
+    padding: 0px;
+}
+
+.sidebar_top_box_text {
+    color: #f2f2f2;
+    font-family: calibri;
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    padding: 0px;
+    text-align: end;
+}
+
+#sidebar_top_box_text_round {
+    font-size: 10px;
+    position: relative;
+    bottom: 1px;
+}
+
+/* ---------- Menu hamburger ---------- */
+
+#button_menu {
+    display: none;
+}
+
+.menu {
+    height: 80px;
+    position: absolute;
+    width: 80px;
+    cursor: url('../../assets/images/pointer.png'), pointer;
+}
+
+.plates {
+    display: block;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    z-index: 5;
+}
+
+.plate {
+    height: 80px;
+    width: 80px;
+}
+
+.burger {
+    filter: url(#gooeyness);
+}
+
+.x {
+    transform: scale(0);
+    transition: transform 400ms;
+}
+
+.line {
+    fill: none;
+    stroke: #f2f2f2;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+}
+
+.x .line {
+    stroke-width: 5.5px;
+}
+
+.active .line {
+    transition: stroke-dasharray 500ms, stroke-dashoffset 500ms, transform 500ms;
+}
+
+.active .x {
+    transform: scale(1);
+    transition: transform 400ms 350ms;
+}
+
+.plate2 .line1 {
+    stroke-dasharray: 21 185.62753295898438;
+    transition-delay: 0;
+}
+
+.plate2 .line2 {
+    stroke-dasharray: 21 178.6514129638672;
+    transition-delay: 30ms;
+}
+
+.plate2 .line3 {
+    stroke-dasharray: 21 197.92425537109375;
+    transition-delay: 60ms;
+}
+
+.plate2 .line4 {
+    stroke-dasharray: 21 190.6597137451172;
+    transition-delay: 90ms;
+}
+
+.plate2 .line5 {
+    stroke-dasharray: 21 208.52874755859375;
+    transition-delay: 120ms;
+}
+
+.plate2 .line6 {
+    stroke-dasharray: 21 186.59703063964844;
+    transition-delay: 150ms;
+}
+
+.active.plate2 .line1 {
+    stroke-dasharray: 5 185.62753295898438;
+    stroke-dashoffset: -141px;
+}
+
+.active.plate2 .line2 {
+    stroke-dasharray: 5 178.6514129638672;
+    stroke-dashoffset: -137px;
+}
+
+.active.plate2 .line3 {
+    stroke-dasharray: 5 197.92425537109375;
+    stroke-dashoffset: -176px;
+}
+
+.active.plate2 .line4 {
+    stroke-dasharray: 5 190.6597137451172;
+    stroke-dashoffset: -159px;
+}
+
+.active.plate2 .line5 {
+    stroke-dasharray: 5 208.52874755859375;
+    stroke-dashoffset: -139px;
+}
+
+.active.plate2 .line6 {
+    stroke-dasharray: 5 186.59703063964844;
+    stroke-dashoffset: -176px;
+}
+
+.active.plate2 .x {
+    transition: transform 400ms 250ms;
+}

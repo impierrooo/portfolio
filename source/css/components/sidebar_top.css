@@ -3,11 +3,12 @@
 #sidebar_top {
     display: flex;
     position: fixed;
-    top: 100px;
-    left: 10%;
+    top: 0px;
+    left: 0px;
     width: 80%;
     height: 80px;
-    padding: 0px;
+    padding: 100px 10% 0 10%;
+    background: transparent;
 }
 
 .sidebar_top_box{

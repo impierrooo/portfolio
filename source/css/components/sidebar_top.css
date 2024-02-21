@@ -29,7 +29,6 @@
 
 #sidebar_top_box3 {
     width: 80px;
-    background-color: green;
 }
 
 #sidebar_top_box_link {
@@ -38,7 +37,7 @@
     font-size: 30px;
     margin: 6px 0 0 0;
     padding: 20px 16px 20px 16px;
-    border: 3px solid #9632f3;
+    border: 3px solid #37fff5;
     border-radius: 8px;
     text-transform: uppercase;
     animation: flicker 10s infinite alternate;
@@ -51,10 +50,10 @@
             -0.2rem -0.2rem 1rem #37fff5,
             0.2rem 0.2rem 1rem #37fff5;
         box-shadow:
-            0 0 .5rem #9632f3,
-            inset 0 0 .5rem #9632f3,
-            0 0 2rem #9632f3,
-            inset 0 0 2rem #9632f3;    
+            0 0 .5rem #37fff5,
+            inset 0 0 .5rem #37fff5,
+            0 0 2rem #37fff5,
+            inset 0 0 2rem #37fff5;    
     }
     20%, 22%, 55% {
         text-shadow: none;
@@ -101,6 +100,15 @@
 .plate {
     height: 80px;
     width: 80px;
+    stroke: #f2f2f2;
+    transition-duration: 500ms;
+    transition-property: stroke;
+}
+
+.plate:hover {
+    stroke: #37fff5;
+    transition-duration: 500ms;
+    transition-property: stroke;
 }
 
 .burger {
@@ -114,7 +122,6 @@
 
 .line {
     fill: none;
-    stroke: #f2f2f2;
     stroke-width: 6px;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -197,4 +204,80 @@
 
 .active.plate2 .x {
     transition: transform 400ms 250ms;
+}
+
+/* ---------- Bouton langue ---------- */
+
+.shrink-border {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    font-size: 24px;
+    font-family: calibri;
+    transition: color 0.5s, transform 0.5s, background-color 0.5s;
+    outline: none;
+    border-radius: 3px;
+    margin: 7px 0 0 7px;
+    border: 3px solid transparent;
+    background-color: transparent;
+    color: #f2f2f2;
+    cursor: url('../../assets/images/pointer.png'), default;
+}
+
+.test {
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.shrink-border:active {
+    transform: translateY(3px);
+}
+
+.shrink-border::after,
+.shrink-border::before {
+    border-radius: 3px;
+}
+
+.shrink-border:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: #37fff5;
+}
+
+.shrink-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #f2f2f2;
+    transition: opacity 0.5s, border 0.5s;
+}
+
+.shrink-border:hover::before {
+    opacity: 0;
+}
+
+.shrink-border::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 3px solid #37fff5;
+    box-shadow: 0 0 10px 0 #37fff5 inset, 0 0 10px 4px #37fff5;
+    opacity: 0;
+    z-index: -1;
+    transform: scaleX(1.3) scaleY(1.3);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.shrink-border:hover::after {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+    box-shadow: 0 0 10px 0 #37fff5 inset, 0 0 10px 4px #37fff5;
 }

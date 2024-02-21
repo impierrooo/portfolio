@@ -29,12 +29,12 @@
 
 .sidebar_bottom_text11 {
     width: 340px;
-    border-radius: 20px 20px 20px 0;
+    border-radius: 1px 20px 20px 0;
 }
 
 .sidebar_bottom_text12 {
     width: 290px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 1px;
 }
 
 .sidebar_bottom_text2 {

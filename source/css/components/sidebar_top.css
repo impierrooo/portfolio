@@ -19,10 +19,11 @@
 
 #sidebar_top_box1 {
     height: 28px;
-    margin: 26px calc(100% - 627px) 0 0;   
+    margin: 26px calc(100% - 645.08px) 0 0;   
 }
 
 #sidebar_top_box2 {
+    width: 230px;
     height: 36px;
     margin: 22px 0 0 0; 
 }
@@ -224,7 +225,7 @@
     cursor: url('../../assets/images/pointer.png'), default;
 }
 
-.test {
+#langue {
     position: relative;
     top: 3px;
     left: 3px;

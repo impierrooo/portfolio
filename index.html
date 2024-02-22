@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
   <title>Impierroo</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="./source/assets/images/logo.png">
   <link rel="stylesheet" href="./source/css/style.css">
   <link rel="stylesheet" href="./source/css/components/sidebar_top.css">
   <link rel="stylesheet" href="./source/css/components/sidebar_bottom.css">
   <link rel="stylesheet" href="./source/css/components/modal.css">
   <link rel="stylesheet" href="./source/css/layouts/background_animation.css">
-  <link rel="icon" type="image/png" sizes="16x16" href="./source/assets/images/logo.png">
+  <script src="./source/js/langue.js"></script>
 </head>
 
 <body>
@@ -173,10 +174,10 @@
         </div>
         <div class="sidebar_top_box" id="sidebar_top_box2">
             <p class="sidebar_top_box_text"><span id="temperatureVille">00°C</span> RENNES <span id="time">00:00</span></p>
-            <p class="sidebar_top_box_text"><span id="sidebar_top_box_text_round">🟢</span> DISPONIBLE POUR UN STAGE</p>
+            <p class="sidebar_top_box_text"><span id="sidebar_top_box_text_round">🟢</span> <span id="top1">DISPONIBLE POUR UN STAGE</span></p>
         </div>
         <div class="sidebar_top_box" id="sidebar_top_box3">
-          <button class="shrink-border"><span class="test">EN</span></button>
+          <button class="shrink-border" onclick="changement_langue()"><span id="langue">EN</span></button>
         </div>
 
         <input type="checkbox" id="button_menu">
@@ -208,9 +209,9 @@
             </div>
         </label>
         <div class="modal">
-            <p class="modal_text" id="modal_text1"><a class="modal_link" href="index.html"><span class="modal_span">01</span>ACCUEIL</a></p>
-            <p class="modal_text"><a class="modal_link" href="./projects.html"><span class="modal_span">02</span>PROJETS</a></p>
-            <p class="modal_text"><a class="modal_link" href="./about.html"><span class="modal_span">03</span>À PROPOS</a></p>
+            <p class="modal_text" id="modal_text1"><a class="modal_link" href="index.html"><span class="modal_span">01</span><span id="modal1">ACCUEIL</span></a></p>
+            <p class="modal_text"><a class="modal_link" href="./projects.html"><span class="modal_span">02</span><span id="modal2">PROJETS</span></a></p>
+            <p class="modal_text"><a class="modal_link" href="./about.html"><span class="modal_span">03</span><span id="modal3">À PROPOS</span></a></p>
             <p class="modal_text"><a class="modal_link" href="./contact.html"><span class="modal_span">04</span>CONTACT</a></p>
             <p class="modal_bottom_text">
                 <a class="modal_bottom" href="https://www.linkedin.com/in/pierre-montaret/" target="_blank"><img src="./source/assets/images/chevron.png" class="modal_bottom_svg"><img src="./source/assets/images/chevron.png" class="modal_bottom_svg"><img src="./source/assets/images/chevron.png" class="modal_bottom_svg modal_bottom_svg_decalage">LinkedIn</a>
@@ -221,8 +222,8 @@
 
     <div class="sidebar_bottom">
         <div class="sidebar_bottom_sub">
-            <span class="sidebar_bottom_text sidebar_bottom_text11">© 2024 Impierrooo • Tous droits réservés</span>
-            <span class="sidebar_bottom_text sidebar_bottom_text12">Conception et développement web</span>
+            <span class="sidebar_bottom_text sidebar_bottom_text11" id="bottom1">© 2024 Impierrooo • Tous droits réservés</span>
+            <span class="sidebar_bottom_text sidebar_bottom_text12" id="bottom2">Conception et développement web</span>
         </div>
         <div class="sidebar_bottom_sub">
             <p class="sidebar_bottom_text2">
@@ -235,6 +236,25 @@
 
     <script src="./source/js/temperature.js"></script>
     <script src="./source/js/time.js"></script>
+    <script>
+      var langue = localStorage.getItem('langue');
+      
+      if (langue !== "FR" && langue !== "EN") {
+        localStorage.setItem('langue', 'FR');
+      }
+      if (langue === "EN") {
+        document.getElementById('langue').innerHTML = "FR";
+
+        document.getElementById('modal1').innerHTML = "HOME";
+        document.getElementById('modal2').innerHTML = "PROJECTS";
+        document.getElementById('modal3').innerHTML = "ABOUT";
+
+        document.getElementById('top1').innerHTML = "AVAILABLE FOR AN INTERNSHIP";
+
+        document.getElementById('bottom1').innerHTML = "© 2024 Impierrooo • All rights reserved";
+        document.getElementById('bottom2').innerHTML = "Web design and development";
+      }
+  </script>
 
     <noscript>
         <style>

@@ -20,6 +20,11 @@ a {
     cursor: url('../assets/images/pointer.png'), default;
 }
 
+textarea, input[type=input], label {
+    text-decoration: none;
+    cursor: url('../assets/images/text.png'), default;
+}
+
 /* ---------- Body ---------- */
 
 body {
@@ -78,7 +83,7 @@ body {
     padding: 0px;
     text-decoration: none;
     font-family: cormier;
-    color: #f2f2f2;
+    color: #f3f3f2;
     font-size: 100px;
     font-weight: 0;
     text-align: center;

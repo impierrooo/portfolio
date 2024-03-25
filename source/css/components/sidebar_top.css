@@ -1,42 +1,38 @@
 /* ---------- Sidebar top ---------- */
 
-#sidebar_top {
-    display: flex;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 80%;
-    height: 80px;
-    padding: 100px 10% 0 10%;
-    background: transparent;
-}
-
 .sidebar_top_box{
-    height: 80px;
-    position: relative;
-    z-index: 5;
+    z-index: 100;
+    position: fixed;
 }
 
 #sidebar_top_box1 {
     height: 28px;
-    margin: 26px calc(100% - 645.08px) 0 0;   
+    margin: 0;
+    top: 117px;
+    left: 10%;
 }
 
 #sidebar_top_box2 {
     width: 230px;
     height: 36px;
-    margin: 22px 0 0 0; 
+    margin: 0;
+    top: 122px;
+    right: calc(10% + 200px);
 }
 
 #sidebar_top_box3 {
     width: 80px;
+    height: 80px;
+    margin: 0;
+    top: 100px;
+    right: calc(10% + 100px);
 }
 
 #sidebar_top_box_link {
     color: #37fff5;
     font-family: cormier;
     font-size: 30px;
-    margin: 6px 0 0 0;
+    margin: 0;
     padding: 20px 16px 20px 16px;
     border: 3px solid #37fff5;
     border-radius: 8px;
@@ -63,7 +59,7 @@
 }
 
 .sidebar_top_box_text {
-    color: #f2f2f2;
+    color: #f3f3f2;
     font-family: calibri;
     font-size: 15px;
     margin: 0 20px 0 0;
@@ -81,27 +77,34 @@
 
 #button_menu {
     display: none;
+    position: fixed;
+    top: 100px;
+    right: 10%;
 }
 
 .menu {
     height: 80px;
-    position: absolute;
+    position: fixed;
+    top: 100px;
+    right: 10%;
     width: 80px;
     cursor: url('../../assets/images/pointer.png'), pointer;
 }
 
 .plates {
     display: block;
-    position: relative;
+    position: fixed;
+    top: 100px;
+    right: 10%;
     height: 80px;
     width: 80px;
-    z-index: 5;
+    z-index: 100;
 }
 
 .plate {
     height: 80px;
     width: 80px;
-    stroke: #f2f2f2;
+    stroke: #f3f3f2;
     transition-duration: 500ms;
     transition-property: stroke;
 }
@@ -221,7 +224,7 @@
     margin: 7px 0 0 7px;
     border: 3px solid transparent;
     background-color: transparent;
-    color: #f2f2f2;
+    color: #f3f3f2;
     cursor: url('../../assets/images/pointer.png'), default;
 }
 
@@ -253,7 +256,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 3px solid #f2f2f2;
+    border: 3px solid #f3f3f2;
     transition: opacity 0.5s, border 0.5s;
 }
 

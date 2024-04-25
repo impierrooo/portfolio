@@ -5,6 +5,8 @@
     padding: 100px 0 100px 0;
     margin: 150px calc(50% - 512px) 0 calc(50% - 512px);
     border-top: solid 1px #f3f3f2;
+    position: relative;
+    z-index: 100;
 }
 
 .sidebar_bottom_text {
@@ -14,6 +16,8 @@
     padding: 0;
     margin: 25px 0 0 0;
     text-align: center;
+    position: relative;
+    z-index: 100;
 }
 
 .sidebar_bottom_sub {
@@ -41,6 +45,8 @@
     margin: 0;
     padding: 1.2em;
     outline: 0;
+    position: relative;
+    z-index: 100;
 }
 
 .sidebar_bottom_link:hover {

@@ -1,7 +1,7 @@
 /* ---------- Sidebar top ---------- */
 
 .sidebar_top_box{
-    z-index: 100;
+    z-index: 1005;
     position: fixed;
 }
 
@@ -98,7 +98,7 @@
     right: 10%;
     height: 80px;
     width: 80px;
-    z-index: 100;
+    z-index: 1005;
 }
 
 .plate {

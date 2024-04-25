@@ -3,6 +3,8 @@
 .contact {
     width: 60%;
     padding: 275px 20% 0 20%;
+    margin: 0px;
+    z-index: 4;
 }
 
 /* ---------- Header ---------- */
@@ -15,6 +17,8 @@
     font-family: cormier;
     color: #f3f3f2;
     border-bottom: 2px solid #f3f3f2;
+    position: relative;
+    z-index: 100;
 }
 
 #contact_header_text1 {
@@ -22,6 +26,8 @@
     font-size: 60px;
     margin: 0;
     padding: 0;
+    position: relative;
+    z-index: 100;
 }
 
 #contact_header_text2 {
@@ -31,6 +37,8 @@
     margin: 0;
     padding: 38px 0 0 0;
     text-align: end;
+    position: relative;
+    z-index: 100;
 }
 
 .light_header {
@@ -41,7 +49,7 @@
     bottom: -26px;
     left: calc(100% - 16px);
     transform: rotate(180deg);
-    z-index: 6;
+    z-index: 101;
 }
 
 .light_header_neon {
@@ -52,7 +60,7 @@
     bottom: -3px;
     left: calc(100% - 9px);
     box-shadow: 0 0 10px 0 #1e9199 inset, 0 0 10px 15px #1e9199;
-    z-index: 5;
+    z-index: 100;
     background-color: #1e9199;
 }
 
@@ -63,7 +71,7 @@
     position: relative;
     bottom: 51px;
     left: calc(100% - 1px);
-    z-index: 6;
+    z-index: 101;
 }
 
 /* ---------- Input ---------- */
@@ -87,6 +95,8 @@
     background: transparent;
     transition-duration: 0.2s;
     transition-property: border-color;
+    position: relative;
+    z-index: 100;
 }
 .form__field::placeholder {
     color: transparent;
@@ -134,6 +144,8 @@
     height: 200px;
     min-height: 200px;
     max-height: 500px;
+    position: relative;
+    z-index: 100;
 }
 
 .form_svg {
@@ -144,6 +156,7 @@
     top: 5px;
     transition-duration: 0.2s;
     transition-property: fill width height top;
+    z-index: 100;
 }
 
 /* ---------- Button ---------- */
@@ -166,6 +179,8 @@
     border-radius: 25px;
     margin: 75px calc(50% - 100px) 0 calc(50% - 100px);
     outline: 0;
+    position: relative;
+    z-index: 100;
 }
 
 #contact_button:hover {
@@ -193,7 +208,7 @@
     transition-duration: 300ms;
     transform: scale(0);
     transform-origin: bottom right;
-    z-index: 13;
+    z-index: 1006;
 }
 
 #alert_fill_background {
@@ -212,7 +227,7 @@
     transition-duration: 300ms;
     transform: scale(0);
     transform-origin: bottom right;
-    z-index: 12;
+    z-index: 1005;
 }
 
 .alert_icon {
@@ -239,7 +254,7 @@
     transition-duration: 300ms;
     transform: scale(0);
     transform-origin: bottom right;
-    z-index: 13;
+    z-index: 1006;
 }
 
 #alert_sucess_background {
@@ -258,5 +273,5 @@
     transition-duration: 300ms;
     transform: scale(0);
     transform-origin: bottom right;
-    z-index: 12;
+    z-index: 1005;
 }

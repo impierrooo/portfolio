@@ -102,15 +102,38 @@
 }
 
 .about_quote {
-    margin: 100px calc(50% - 150px) 100px calc(50% - 150px);
-    padding: 20px 0;
+    margin: 100px calc(50% - 151px) 50px calc(50% - 151px);
+    padding: 40px 20px;
     border-radius: 20px;
     width: 300px;
     text-align: center;
     color: #f3f3f2;
     font-size: 30px;
     font-family: calibri;
-    background-color: #1e9199;
+    border: solid 2px #37fff5;
+}
+
+.quote_svg1 {
+    width: 50px;
+    height: 50px;
+    fill: #37fff5;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: calc(50% - 125px);
+    top: 130px;
+    transform: rotate(180deg);
+}
+
+.quote_svg2 {
+    width: 50px;
+    height: 50px;
+    fill: #37fff5;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: calc(50% + 125px);
+    bottom: 75px;
 }
 
 /* ---------- Timeline ---------- */

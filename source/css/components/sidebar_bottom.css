@@ -60,3 +60,33 @@
     top: 3px;
     font-size: 18px;
 }
+
+/* ---------- Resize ---------- */
+
+@media only screen and (max-width: 1439px) {
+    .sidebar_bottom {
+        width: 768px;
+        margin: 150px calc(50% - 384px) 0 calc(50% - 384px);
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .sidebar_bottom {
+        width: 425px;
+        margin: 150px calc(50% - 212.5px) 0 calc(50% - 212.5px);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar_bottom {
+        width: 375px;
+        margin: 150px calc(50% - 187.5px) 0 calc(50% - 187.5px);
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .sidebar_bottom {
+        width: 320px;
+        margin: 150px calc(160px) 0 calc(50% - 160px);
+    }
+}

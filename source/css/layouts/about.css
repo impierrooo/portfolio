@@ -344,3 +344,154 @@
     transition: top 500ms ease-out;
     z-index: 101;
 }
+
+/* ---------- Resize ---------- */
+
+@media only screen and (max-width: 1439px) {
+    /* ---------- Page ---------- */
+    .index {
+        width: 82%;
+        padding: 275px 9% 0 9%;
+    }
+
+    /* ---------- Timeline ---------- */
+    .timeline {
+        width: 82%;
+        padding: 0 9% 0 9%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    /* ---------- Header ---------- */
+    .index_header {
+        display: block;
+    }
+
+    #index_header_text1 {
+        width: 100%;
+        font-size: 45px;
+    }
+    
+    #index_header_text2 {
+        width: 100%;
+        text-align: left;
+        padding: 18px 0 0 0;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* ---------- Page ---------- */
+    .index {
+        width: 90%;
+        padding: 275px 5% 0 5%;
+    }
+
+    /* ---------- Text ---------- */
+    .about_text {
+        margin: 50px 0 0 0;
+        width: 100%;
+    }
+
+    /* ---------- Images ---------- */
+    .about_div {
+        display: block;
+    }
+    
+    .about_img1 {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    
+    .about_img2 {
+        width: 60%;
+        margin: 50px 20% 0 20%;
+    }
+
+    /* ---------- Quote ---------- */
+    .about_quote {
+        margin: 100px 0 50px 0;
+        width: calc(100% - 40px);
+    }
+
+    .quote_svg1 {
+        left: 25px;
+        top: 130px;
+    }
+    
+    .quote_svg2 {
+        left: calc(100% - 75px);
+        bottom: 75px;
+    }
+
+    /* ---------- Timeline ---------- */
+    .timeline {
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+
+    .timeline_part1 {
+        width: calc(100% - 52px);
+        padding: 0 0 0 50px;
+        margin: 0 0 -16px 0;
+        border-width: 0 0 0 2px;
+        border-left: solid 2px #f3f3f2;
+    }
+    
+    .timeline_part2 {
+        width: calc(100% - 52px);
+        padding: 0 0 0 50px;
+        margin: 0 0 -16px 0;
+        border-width: 0 0 0 2px;
+        border-left: solid 2px #f3f3f2;
+    }
+    
+    .timeline_start_end {
+        width: calc(100% - 52px);
+        height: 100px;
+        padding: 0 0 0 50px;
+        margin: 16px 0 0 0;
+        border-width: 0 0 0 2px;
+        border-left: solid 2px #f3f3f2;
+    }
+    
+    .timeline_title1 {
+        text-align: left;
+    }
+    
+    .timeline_description1 {
+        text-align: left;
+    }
+    
+    .timeline_date1 {
+        padding: 0 0 20px 0;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .timeline_round1 {
+        left: -56px;
+        bottom: 38px;
+    }
+    
+    .timeline_date2 {
+        padding: 0 0 20px 0;
+    }
+    
+    .timeline_round2 {
+        right: 56px;
+        bottom: 38px;
+    }
+
+    #cursor_pos {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    /* ---------- Images ---------- */
+    .about_img2 {
+        width: 100%;
+        margin: 50px 0% 0 0%;
+    }
+}

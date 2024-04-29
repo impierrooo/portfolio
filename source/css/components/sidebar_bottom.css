@@ -10,6 +10,7 @@
 }
 
 .sidebar_bottom_text {
+    width: 100%;
     color: #f3f3f2;
     font-size: 20px;
     font-family: calibri;
@@ -86,7 +87,7 @@
 
 @media only screen and (max-width: 424px) {
     .sidebar_bottom {
-        width: 320px;
-        margin: 150px calc(160px) 0 calc(50% - 160px);
+        width: 300px;
+        margin: 150px calc(150px) 0 calc(50% - 150px);
     }
 }

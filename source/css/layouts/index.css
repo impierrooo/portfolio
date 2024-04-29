@@ -275,3 +275,167 @@
     border-color: #9632f3;
     box-shadow: 0 0 10px 0 #9632f3 inset, 0 0 10px 4px #9632f3;
 }
+
+/* ---------- Resize ---------- */
+
+@media only screen and (max-width: 1439px) {
+    /* ---------- Page ---------- */
+    .index {
+        width: 82%;
+        padding: 275px 9% 0 9%;
+    }
+
+    .index_part2 {
+        width: 82%;
+        padding: 100px 9% 100px 9%;
+    }
+
+    .index_part3 {
+        width: 82%;
+        padding: 100px 9% 0 9%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    /* ---------- Conteneur ---------- */
+    .conteneur {
+        display: block;
+        margin: 50px 0 0 0;
+    }
+    
+    .conteneur_part1 {
+        width: 100%;
+    }
+    
+    .conteneur_part2 {
+        width: 100%;
+    }
+
+    /* ---------- Text ---------- */
+
+    .index_text {
+        width: 400px;
+        margin: 25px calc(50% - 200px) 0 calc(50% - 200px);
+        text-align: center;
+    }
+
+    .index_text1 {
+        margin: 20px 0 50px 0;
+        text-align: center;
+    }
+
+    /* ---------- Header ---------- */
+    .index_header {
+        display: block;
+    }
+
+    #index_header_text1 {
+        width: 100%;
+        font-size: 45px;
+    }
+    
+    #index_header_text2 {
+        display: none;
+    }
+
+    /* ---------- Page part 2 ---------- */
+    .index_part2 {
+        display: block;
+    }
+
+    .index_part2_part1 {
+        width: 100%;
+    }
+    
+    .index_part2_part2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* ---------- Page ---------- */
+    .index {
+        width: 90%;
+        padding: 275px 5% 0 5%;
+    }
+
+    .index_part2 {
+        width: 90%;
+        padding: 100px 5% 100px 5%;
+    }
+
+    .index_part3 {
+        width: 90%;
+        padding: 100px 5% 0 5%;
+    }
+
+    /* ---------- Text ---------- */
+
+    .index_text {
+        font-size: 30px;
+        width: 250px;
+        margin: 25px calc(50% - 125px) 0 calc(50% - 125px);
+    }
+
+    .index_text1 {
+        font-size: 20px;
+    }
+
+    .index_text2 {
+        margin: 70px 0px 70px 0px;
+    }
+
+    /* ---------- Illustration ---------- */
+    .index_illustration {
+        width: 80%;
+        margin: 0 10% -5px 10%;
+    }
+
+    /* ---------- Tools ---------- */
+    .index_tools {
+        margin: 0;
+    }
+
+    /* ---------- Page part 3 ---------- */
+
+    .index_part3_img {
+        margin: 0 calc(50% - 150px) 25px calc(50% - 150px);
+        width: 300px;
+        height: 167px;
+    }
+
+    #index_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: cormier;
+        font-size: 15px;
+        padding-top: 5px;
+        color: #f3f3f2;
+        width: 250px;
+        height: 50px;
+        border: 2px solid #9632f3;
+        box-shadow: 0 0 40px 40px #9632f3 inset, 0 0 0 0 #9632f3;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        background: rgba(150, 50, 243, 0.25);
+        border-radius: 25px;
+        margin: 75px calc(50% - 125px) 0 calc(50% - 125px);
+        outline: 0;
+        position: relative;
+        z-index: 100;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    /* ---------- Illustration ---------- */
+    .index_illustration {
+        width: 100%;
+        margin: 0 0 -5px 0;
+    }
+
+    /* ---------- Text 3 ---------- */
+    .index_part3_text {
+        margin: 0 0px 0 0px;
+    }
+}

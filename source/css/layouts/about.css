@@ -93,25 +93,65 @@
 .about_div {
     display: flex;
     padding: 0;
-    margin: 100px 0 0 0;
+    margin: 0 0 50px 0;
 }
 
-.about_img1 {
-    width: 66%;
+.about_div_svg {
+    width: 40px;
+    height: 40px;
+    fill: #37fff5;
+    margin: 100px 0 0 0;
     padding: 0;
-    margin: 0 2% 0 0;
-    border-radius: 20px;
     position: relative;
+    top: 150px;
     z-index: 100;
 }
 
+.about_div_text {
+    color: #37fff5;
+    font-family: cormier;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 138.5px;
+    z-index: 100;
+}
+
+.about_img1 {
+    width: 40%;
+    height: calc(40% * 9 / 16);
+    padding: 0;
+    margin: 0 0 0 0;
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+    z-index: 100;
+    box-shadow: rgba(55, 255, 245, 0.35) 0px 5px 15px;
+}
+
 .about_img2 {
-    width: 32%;
+    width: 35%;
+    height: calc(35% * 9 / 16);
     padding: 0;
     margin: 0;
     border-radius: 20px;
     position: relative;
+    transform: scale(1.05);
+    z-index: 101;
+    box-shadow: rgba(55, 255, 245, 0.35) 0px 5px 15px;
+}
+
+.about_img3 {
+    width: 25%;
+    height: calc(25% * 9 / 16);
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    position: relative;
+    top: 25px;
     z-index: 100;
+    box-shadow: rgba(55, 255, 245, 0.35) 0px 5px 15px;
 }
 
 .about_quote {
@@ -397,15 +437,30 @@
     .about_div {
         display: block;
     }
+
+    .about_div_svg {
+        top: 0px;
+    }
     
+    .about_div_text {
+        top: -11.5px;
+    }
+
     .about_img1 {
         width: 100%;
-        margin: 0 0 0 0;
+        height: calc(100% * 9 / 16);
+        top: 0px;
     }
     
     .about_img2 {
         width: 60%;
+        height: calc(60% * 9 / 16);
         margin: 50px 20% 0 20%;
+        transform: scale(1.0);
+    }
+    
+    .about_img3 {
+        display: none;
     }
 
     /* ---------- Quote ---------- */
@@ -457,6 +512,11 @@
     
     .timeline_title1 {
         text-align: left;
+        font-size: 20px;
+    }
+
+    .timeline_title2 {
+        font-size: 20px;
     }
     
     .timeline_description1 {
@@ -492,6 +552,8 @@
     /* ---------- Images ---------- */
     .about_img2 {
         width: 100%;
-        margin: 50px 0% 0 0%;
+        margin: 50px 0 0 0;
+        height: calc(100% * 9 / 16);
+        transform: scale(1.0);
     }
 }

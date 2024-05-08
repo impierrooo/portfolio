@@ -86,11 +86,6 @@
 	display: flex;
 }
 
-.center, .carousel ul {
-	align-items: center;
-	justify-content: center;
-}
-
 .carousel-wrapper {
 	position: relative;
 	width: 100%;

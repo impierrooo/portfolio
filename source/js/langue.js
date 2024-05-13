@@ -32,16 +32,18 @@ function changement_langue(){
             document.getElementById('index_header_text1').innerHTML = "PROJECTS";
 
             document.getElementById('description1').innerHTML = "Redcode Corewar is a variant of the original Corewar where programs, called champions, are written in the Redcode language. These champions are loaded into a virtual arena where they battle for control of memory. Players must design champions capable of surviving and winning in a competitive environment by utilizing advanced strategies and creative programming techniques.";
+            document.getElementById('description2').innerHTML = "The 42sh project at Epitech is a command interpreter (shell) written in C, adhering to POSIX standards. It allows for the execution of simple or complex commands, handling pipes, file redirections, and logical operators. Advanced features include managing environment variables and built-in commands. The project aims to provide a robust and efficient implementation of the UNIX shell, adhering to coding conventions and ensuring proper memory management.";
+
 
             document.getElementById('data1').innerHTML = "Language : C";
             document.getElementById('data2').innerHTML = "Duration : 4 weeks";
             document.getElementById('data3').innerHTML = "Role : Developer";
-            document.getElementById('data4').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/" target="_blank">Github</a>';
+            document.getElementById('data4').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo" target="_blank">Github</a>';
 
-            document.getElementById('data5').innerHTML = "Language : Lorem ipsum";
-            document.getElementById('data6').innerHTML = "Duration : Lorem ipsum";
-            document.getElementById('data7').innerHTML = "Role : Lorem ipsum";
-            document.getElementById('data8').innerHTML = 'Visualization : <a class="slide_box_link" href="https://loremipsum.io/" target="_blank">Lorem ipsum</a>';
+            document.getElementById('data5').innerHTML = "Language : C";
+            document.getElementById('data6').innerHTML = "Duration : 4 weeks";
+            document.getElementById('data7').innerHTML = "Role : Developer";
+            document.getElementById('data8').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Lorem ipsum</a>';
 
             document.getElementById('data9').innerHTML = "Language : Lorem ipsum";
             document.getElementById('data10').innerHTML = "Duration : Lorem ipsum";
@@ -134,17 +136,18 @@ function changement_langue(){
             document.getElementById('index_header_text1').innerHTML = "PROJECT";
 
             document.getElementById('description1').innerHTML = "Le Redcode Corewar est une variante du Corewar original où les programmes, appelés champions, sont écrits en langage Redcode. Les champions sont chargés dans une arène virtuelle où ils s'affrontent pour le contrôle de la mémoire. Les joueurs doivent concevoir des champions capables de survivre et de vaincre dans un environnement compétitif en utilisant des stratégies avancées et des techniques de programmation créatives.";
-
+            document.getElementById('description2').innerHTML = "Le projet 42sh d'Epitech est un interpréteur de commandes (shell) en langage C, respectant les normes POSIX. Il permet l'exécution de commandes simples ou complexes, la gestion des pipes, des redirections de fichiers et des opérateurs logiques. Les fonctionnalités avancées incluent la manipulation des variables d'environnement et des commandes intégrées. Le projet vise à fournir une implémentation robuste et efficace du shell UNIX, en se conformant aux conventions de codage et en garantissant une bonne gestion de la mémoire.";
+            
 
             document.getElementById('data1').innerHTML = "Langage : C";
             document.getElementById('data2').innerHTML = "Durée : 4 semaines";
             document.getElementById('data3').innerHTML = "Rôle : Développeur";
-            document.getElementById('data4').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/" target="_blank">Github</a>';
+            document.getElementById('data4').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo" target="_blank">Github</a>';
 
-            document.getElementById('data5').innerHTML = "Langage : Lorem ipsum";
-            document.getElementById('data6').innerHTML = "Durée : Lorem ipsum";
-            document.getElementById('data7').innerHTML = "Rôle : Lorem ipsum";
-            document.getElementById('data8').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://loremipsum.io/" target="_blank">Lorem ipsum</a>';
+            document.getElementById('data5').innerHTML = "Langage : C";
+            document.getElementById('data6').innerHTML = "Durée : 4 semaines";
+            document.getElementById('data7').innerHTML = "Rôle : Développeur";
+            document.getElementById('data8').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Lorem ipsum</a>';
 
             document.getElementById('data9').innerHTML = "Langage : Lorem ipsum";
             document.getElementById('data10').innerHTML = "Durée : Lorem ipsum";

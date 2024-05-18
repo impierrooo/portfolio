@@ -38,12 +38,12 @@ function changement_langue(){
             document.getElementById('data1').innerHTML = "Language : C";
             document.getElementById('data2').innerHTML = "Duration : 4 weeks";
             document.getElementById('data3').innerHTML = "Role : Developer";
-            document.getElementById('data4').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo" target="_blank">Github</a>';
+            document.getElementById('data4').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo/corewar" target="_blank">Github</a>';
 
             document.getElementById('data5').innerHTML = "Language : C";
             document.getElementById('data6').innerHTML = "Duration : 4 weeks";
             document.getElementById('data7').innerHTML = "Role : Developer";
-            document.getElementById('data8').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Lorem ipsum</a>';
+            document.getElementById('data8').innerHTML = 'Visualization : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Github</a>';
 
             document.getElementById('data9').innerHTML = "Language : Lorem ipsum";
             document.getElementById('data10').innerHTML = "Duration : Lorem ipsum";
@@ -142,12 +142,12 @@ function changement_langue(){
             document.getElementById('data1').innerHTML = "Langage : C";
             document.getElementById('data2').innerHTML = "Durée : 4 semaines";
             document.getElementById('data3').innerHTML = "Rôle : Développeur";
-            document.getElementById('data4').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo" target="_blank">Github</a>';
+            document.getElementById('data4').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo/corewar" target="_blank">Github</a>';
 
             document.getElementById('data5').innerHTML = "Langage : C";
             document.getElementById('data6').innerHTML = "Durée : 4 semaines";
             document.getElementById('data7').innerHTML = "Rôle : Développeur";
-            document.getElementById('data8').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Lorem ipsum</a>';
+            document.getElementById('data8').innerHTML = 'Visualisation : <a class="slide_box_link" href="https://github.com/impierrooo/42sh" target="_blank">Github</a>';
 
             document.getElementById('data9').innerHTML = "Langage : Lorem ipsum";
             document.getElementById('data10').innerHTML = "Durée : Lorem ipsum";

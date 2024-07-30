@@ -1,0 +1,72 @@
+/* ---------- Sidebar top ---------- */
+
+.modal {
+    background: #5d19c1;
+    height: 1px;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease 0.5s, height 0.5s ease;
+    width: 0;
+    z-index: 102;
+}
+
+.modal_text {
+    display: block;
+    width: 1200px;
+    font-size: 48px;
+    font-family: cormier;
+    padding: 0;
+    margin: 20px calc(50% - 600px) 0 calc(50% - 600px);
+    color: #f3f3f2;
+    position: relative;
+    z-index: 1002;
+}
+
+.modal_link {
+    color: #f3f3f2;
+    letter-spacing: 1px;
+    transition: all .2s ease;
+}
+
+.modal_link:hover {
+    letter-spacing: 8px;
+}
+
+.modal_span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+#modal_text1 {
+    margin-top: 175px;
+}
+
+/* ---------- Transition ---------- */
+#button_menu:checked ~ .modal {
+    height: 100%;
+    width: 100%;
+    transition: width 0.5s ease, height 0.5s ease 0.5s;
+}
+
+#button_menu:checked ~ .modal .content {
+    color: #f3f3f2;
+    transition: color 0.5s ease 0.5s;
+}
+
+/* ---------- Resize ---------- */
+
+@media only screen and (max-width: 1240px) {
+    .modal_text {
+        width: 100%;
+        margin: 20px 20px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .modal_text {
+        font-size: 32px;
+    }
+}

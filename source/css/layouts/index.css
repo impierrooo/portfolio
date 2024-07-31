@@ -344,7 +344,7 @@
     border: 2px solid #1e9199;
     margin: 0;
     padding: 12px 14px 10px 14px;
-    border-radius: 50px;
+    border-radius: 15px;
     box-shadow: 0 0 10px 0 #1e9199 inset, 0 0 10px 5px #1e9199;
     position: relative;
     z-index: 100;

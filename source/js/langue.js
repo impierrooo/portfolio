@@ -45,6 +45,7 @@ function changement_langue(){
         document.getElementById('text3').innerHTML = "MY TOOLS & SKILLS";
         document.getElementById('text4').innerHTML = "ABOUT";
         document.getElementById('text5').innerHTML = "I am Pierre Montaret, currently studying at Epitech in Rennes, where I am passionate about information technology and software design. My academic background is marked by challenging projects, such as recreating commands in C and dynamic graphical projects, demonstrating my ability to tackle technical challenges with creativity and rigor.<br><br>Outside of my studies, I have developed an interest in investment and cryptocurrencies, showcasing my eagerness to explore new fields and tackle complex challenges. My involvement in various activities, such as horseback riding and video games, highlights my balance between work and leisure, as well as my ability to manage my time and resources effectively.";
+        document.getElementById('text5bis').innerHTML = "PROJECTS";
         document.getElementById('text6').innerHTML = "COREWAR";
         document.getElementById('text7').innerHTML = "Redcode Corewar is a variant of the original Corewar where programs, called champions, are written in the Redcode language. These champions are loaded into a virtual arena where they battle for control of memory. Players must design champions capable of surviving and winning in a competitive environment by utilizing advanced strategies and creative programming techniques.";
         document.getElementById('text8').innerHTML = "42SH";
@@ -74,7 +75,7 @@ function changement_langue(){
         document.getElementById('description4').innerHTML = "En tant qu'indépendant, j'ai commencé à créer des sites web, explorant ma créativité et développant mes compétences techniques pour donner vie à mes idées en ligne.";
         document.getElementById('description5').innerHTML = "Intégrer Epitech, l'école d'informatique, a été une étape cruciale dans mon parcours, me fournissant une formation spécialisée et ouvrant les portes à une carrière passionnante dans la technologie.";
 
-        document.getElementById('date1').innerHTML = "Décember 2016";
+        document.getElementById('date1').innerHTML = "Décembre 2016";
         document.getElementById('date2').innerHTML = "Mars 2021";
         document.getElementById('date3').innerHTML = "Septembre 2021";
         document.getElementById('date4').innerHTML = "Février 2022";
@@ -94,6 +95,7 @@ function changement_langue(){
         document.getElementById('text3').innerHTML = "MES OUTILS & COMPÉTENCES";
         document.getElementById('text4').innerHTML = "À PROPOS";
         document.getElementById('text5').innerHTML = "Je suis Pierre Montaret, actuellement étudiant à Epitech à Rennes, où je me passionne pour les technologies de l'information et la conception de logiciels. Mon parcours académique est marqué par des projets stimulants, comme la reproduction de commandes en C et des projets graphiques dynamiques, démontrant ma capacité à relever des défis techniques avec créativité et rigueur.<br><br>En dehors de mes études, j'ai développé un intérêt pour l'investissement et les cryptomonnaies, illustrant ma volonté d'explorer de nouveaux domaines et de relever des défis complexes. Mon engagement dans des activités variées, telles que l'équitation et les jeux vidéo, met en lumière mon équilibre entre le travail et les loisirs, ainsi que ma capacité à gérer efficacement mon temps et mes ressources.";
+        document.getElementById('text5bis').innerHTML = "PROJETS";
         document.getElementById('text6').innerHTML = "COREWAR";
         document.getElementById('text7').innerHTML = "Le Redcode Corewar est une variante du Corewar original où les programmes, appelés champions, sont écrits en langage Redcode. Les champions sont chargés dans une arène virtuelle où ils s'affrontent pour le contrôle de la mémoire. Les joueurs doivent concevoir des champions capables de survivre et de vaincre dans un environnement compétitif en utilisant des stratégies avancées et des techniques de programmation créatives.";
         document.getElementById('text8').innerHTML = "42SH";

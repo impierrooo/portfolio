@@ -98,6 +98,22 @@
     z-index: 100;
 }
 
+.index_text3space {
+    margin: 0 0 50px 0;
+}
+
+.index_text3bis {
+    margin: 0;
+    padding: 0;
+    color: #37fff5;
+    text-shadow: #1e9199 3px 3px 0px, #1e9199 6px 6px 0px;
+    font-size: 30px;
+    text-align: center;
+    font-family: cormier;
+    position: relative;
+    z-index: 100;
+}
+
 /* ---------- Index section 1 ---------- */
 
 .index_svg {
@@ -816,6 +832,10 @@
 @media only screen and (max-width: 460px) {
     .index_text3 {
         font-size: 32px;
+    }
+
+    .index_text3bis {
+        font-size: 24px;
     }
 
     .index_illustration {

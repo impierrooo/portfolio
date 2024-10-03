@@ -35,9 +35,9 @@ function changement_langue(){
         document.getElementById('name_label').innerHTML = "<svg class='form_svg' viewBox='0 0 24 24'><path d='M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z'></path></svg> Name";
         document.getElementById('contact_button').innerHTML = "SEND";
 
-        document.getElementById('alert_fill').innerHTML = "Please fill in all fields <img src='./source/assets/images/error.png' class='alert_icon'>";
+        document.getElementById('alert_fill').innerHTML = "Please fill in all fields <img loading='lazy' alt='logo d'erreur avec un croix en rouge' src='./source/assets/images/error.png' class='alert_icon'>";
         document.getElementById('alert_fill_background').style.width = "193.53px";
-        document.getElementById('alert_sucess').innerHTML = "Message sent <img src='./source/assets/images/succes.png' class='alert_icon'>";
+        document.getElementById('alert_sucess').innerHTML = "Message sent <img loading='lazy' alt='logo de succès en vert' src='./source/assets/images/succes.png' class='alert_icon'>";
         document.getElementById('alert_sucess_background').style.width = "148.25px";
 
         document.getElementById('text1').innerHTML = "Hello, I'm IMPIERROOO <svg class='index_hand' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' preserveAspectRatio='xMidYMid meet'><path d='M41.947 6.448l-4.239 17.348l-3.521-17.588C32.948-.625 22.796 1.504 24.21 8.004l2.538 12.911c-2.579-.902-6.947 1.289-6.585 5.322c-1.525-2.258-8.707-1.605-8.13 5.009c0 0 .588 4.507.666 6.018c.139 2.711-.058 7.696.374 10.853c1.278 9.344 9.804 13.702 17.686 13.877c.165.004.331.006.498.006c8.112 0 16.932-4.377 18.747-14.301c1.313-7.192-1.115-10.431-4.473-12.896l6.307-26.16c1.54-6.096-8.346-8.544-9.891-2.195m-16.302.675c-.708-3.589 5.104-4.256 5.8-.612l4.625 24.222c-.869.11-2.555.861-4.619.972l-.74-6.522c-.153-1.38-1.282-3.009-2.259-3.782L25.645 7.123m.393 15.645c1.542.738 2.123 1.244 2.813 8.957c-2.021 0-3.669 1.863-3.669 4.076c-1.269 0-2.018-1.302-2.433-2.669c-.607-1.993-1.066-4.982-1.271-6.633c-.411-3.338 2.963-4.496 4.56-3.731m-6.255 7.029c.264.993 1.612 6.069 1.189 8.328c-.713 3.794-6.514 2.976-6.956-.932l-.749-6.405c-.426-3.838 5.256-5.74 6.516-.991M45.49 51.308c-4.947 8.254-15.265 9.729-22.2 6.778c-5.976-2.543-10.273-6.653-9.306-17.753c1.155 1.772 7.868 3.514 9.473-3.146c.634.393 1.33.616 2.028.683c1.02 2.681 4.297 3.508 5.336 3.711c-2.165 1.231-3.906 3.627-2.847 7.533c-.085-6.451 6.764-8.293 7.755-7.931c1.148.421 2.615 2.486 2.965 3.596c.137.438.166 1.833.166 1.833s.403-1.4.338-1.872c-.201-1.448-2.061-4.218-3.426-4.756c-1.623-.637-5.77-.234-7.321-1.03c-3.106-1.594-2.059-6.249.496-5.974c2.893.311 4.528-.192 5.958-.597c1.654-.468 3.104-.903 4.559.188c1.518 1.137 4.818 3.575 5.813 4.559c3.26 3.224 2.507 10.349.213 14.178m3.465-42.225l-5.683 24.21c-2.169-1.342-3.209-2.388-4.153-2.45l-.8-3.889L43.398 6.6c.834-3.417 6.589-1.554 5.557 2.483' fill='#37fff5'></path></svg>";
@@ -84,9 +84,9 @@ function changement_langue(){
         document.getElementById('name_label').innerHTML = "<svg class='form_svg' viewBox='0 0 24 24'><path d='M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z'></path></svg> Nom";
         document.getElementById('contact_button').innerHTML = "ENVOYER";
 
-        document.getElementById('alert_fill').innerHTML = "Veuillez compléter tous les champs <img src='./source/assets/images/error.png' class='alert_icon'>";
+        document.getElementById('alert_fill').innerHTML = "Veuillez compléter tous les champs <img loading='lazy' alt='logo d'erreur avec un croix en rouge' src='./source/assets/images/error.png' class='alert_icon'>";
         document.getElementById('alert_fill_background').style.width = "286.81px";
-        document.getElementById('alert_sucess').innerHTML = "Message envoyé <img src='./source/assets/images/succes.png' class='alert_icon'>";
+        document.getElementById('alert_sucess').innerHTML = "Message envoyé <img loading='lazy' alt='logo de succès en vert' src='./source/assets/images/succes.png' class='alert_icon'>";
         document.getElementById('alert_sucess_background').style.width = "166.95px";
 
 
